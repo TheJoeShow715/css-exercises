@@ -54,8 +54,15 @@ ul {
   gap: 16px;
 }
 
-.right, .left {
+.left {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: auto;
 }
