@@ -28,6 +28,7 @@ input {
 }
 
 .content, .buttons {
+  flex: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -37,10 +38,16 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 12px;
 }
 
 .footer {
   background-color: #eee
 
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
 }
