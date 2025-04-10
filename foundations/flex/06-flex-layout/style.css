@@ -24,3 +24,10 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.content, .buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 12px;
+}
